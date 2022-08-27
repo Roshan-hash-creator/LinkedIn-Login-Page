@@ -1,0 +1,226 @@
+
+
+.navbar{
+    margin: 32px 0px 0px 56px;
+    padding: 0;
+    
+}
+.body{
+    margin: 50px auto 0px;
+    width: 352px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.title > h3{
+    color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+.title > p{
+    color: rgba(0,0,0,0.9);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.mail__inp, .pass__inpu{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-top: 15px;
+}
+
+.mail__inp > input, .pass__inpu > input{
+    font-weight: 400;
+    padding: 28px 12px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.9);
+    width: 100%;
+    height: 52px;
+    box-sizing: border-box;
+}
+.mail__inp > input:focus, .pass__inpu > input:focus{
+    outline: 1px solid blue;
+}
+.mail__inp > label{
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 14px 0 0 12px;
+    margin: 0;
+    transition: .2s all
+}
+.pass__inpu > label{
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 14px 0 0 12px;
+    margin: 0;
+    transition: .2s all
+}
+.visibility > p{
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    color: #0A66C2;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 18px;
+    padding: 3px 8px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.visibility > p:hover{
+    background-color: rgba(152,216,244,0.25);
+}
+
+.mail__inp>input:focus~label,
+.mail__inp>input:valid~label,
+.pass__inpu>input:focus~label,
+.pass__inpu>input:valid~label {
+    top: -10px;
+    left: 0px;
+    font-size: 13px;
+}
+
+.forgot{
+    margin: 5px 0px;
+}
+.forgot > span{
+    border-radius: 12px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0A66C2;
+}
+.forgot > span:hover{
+    text-decoration: underline;
+    background-color: rgba(137, 211, 242, 0.25);
+}
+.signIn__btn{
+    margin: 20px 0px 0px;
+}
+.signIn__btn > button{
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px;
+    border: none;
+    background-color: #0A66c2;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signIn__btn > button:hover{
+    background-color: #062d74 ;
+    transition: .5s all;
+}
+.signIn__btn > button > p{
+    margin: 0;
+}
+.divider{
+    margin: 10px 0px;
+}
+.divider > p{
+    text-align: center;
+}
+.divider>span {
+    display: table;
+    font-size: 16px;
+    margin: 15px auto 1em;
+    color: rgb(127, 127, 127);
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.divider>span::before {
+    border-top: 1px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+.divider>span::after {
+    border-top: 1px solid rgb(204, 204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+.signIn__options > button{
+    width: 100%;
+    border-radius: 28px;
+    border: 2px solid #838383;
+    background-color: transparent;
+    margin-bottom: 10px;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signIn__options > button:hover{
+    background-color: #f1f1f1;
+    border: 2px solid black;
+    transition: .3s all;
+}
+.signIn__options > button > p{
+  margin: 0;
+}
+.signIn__options > button > p > i{
+    margin-right: 5px;
+}
+.newUser > p{
+    text-align: center;
+    margin: 40px auto 0px;
+}
+.newUser > p > span{
+    padding: 5px;
+    font-weight: 600;
+    color: #0A66C2;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.newUser > p > span:hover{
+    background-color: rgba(152,216,244,0.25);
+}
+
+/* FOOTER  */
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    font-size: 12px;
+    margin: 50px 0px 20px;
+}
+.logo > img{
+    width: 62px;
+    height: 18px;
+    filter: hue-rotate(210deg);
+    cursor: pointer;
+}
+.links{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.links > li{
+    margin-right: 15px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.links > li:hover{
+    text-decoration: underline;
+}
+
+
+
